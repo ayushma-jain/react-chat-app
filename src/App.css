@@ -1,0 +1,95 @@
+.App {
+  padding: 20px 10px;
+  font-family: 'Baloo_Thambi_2';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.i-box {
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 700px;
+  padding: 15px;
+}
+label{
+  color: deepskyblue;
+}
+.i-box h3 {
+  font-weight: bold;
+  font-family: 'Baloo_Thambi_2';
+  border-bottom: 5px solid;
+  margin: 15px;
+}
+
+.p-rel {
+  position: relative;
+}
+
+.chat-box {
+  position: absolute;
+  width: 94%;
+  bottom: 16px;
+}
+
+.box-right {
+  float: right;
+  text-align: right;
+}
+
+.box-left {
+  float: left;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+/*
+.message-box {
+  float: right;
+}
+
+*/
+.message-box p {
+  margin: 2px;
+  padding: 5px 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
