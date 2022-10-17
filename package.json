@@ -1,5 +1,4 @@
 {
-  "homepage": ".",
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +24,6 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "proxy": "http://localhost:8080",
     "extends": [
       "react-app",
       "react-app/jest"
