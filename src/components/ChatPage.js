@@ -22,10 +22,6 @@ const chatData = [
     }, {
         'user_id': 2,
         'message': 'Thanks for asking',
-    },
-    {
-        'user_id': 1,
-        'message': 'Thanks for your kindness',
     }
 ];
 
